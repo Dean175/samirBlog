@@ -1,0 +1,113 @@
+body{
+	background-color: #263238;
+}
+
+img{
+	width: 100%;
+}
+#wrapper{
+	width: 1200px;
+	margin: 0 auto; 
+}
+.box{
+	background-color: #1976D2;
+	margin: 0.4%;
+	padding: 1%;
+}
+#sidebar{
+	background-color: yellow;
+}
+
+/*----------Header---------------*/
+#header h1{
+	text-align: center;
+	color: white;
+}
+#main-menu li{
+	list-style: none;
+	display: inline;
+	background-color: #E8EAF6;
+	padding: 0.5em 3em;
+
+}
+#main-menu li:hover{
+	background-color: red;
+
+}
+
+.active {
+	background-color: yellow !important;
+}
+
+#main-menu{
+	text-align: center;
+}
+#main-menu li a{
+	text-decoration: none;
+}
+
+/*----------Header-end---------------*/
+
+#sidebar{
+	float: right;
+	width: 20%;
+	padding: 0;
+	background-color: transparent;
+}
+#footer{
+	clear: both;
+}
+#body{
+	float: left;
+	width: 74%;
+
+}
+
+.float-left{
+	float: left;
+	width: 50%;
+}
+.float-right{
+	float: right;
+	width: 45%;
+}
+.float-clear{
+	clear: both;
+}
+.blocks{
+	background-color: #fff;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+	 
+}
+.blocks p{
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.blocks li{
+	list-style: none;
+}
+
+#search-form input[type = 'submit']{
+	padding: 0.6em 0.5em;
+    background-color: #1b95ff;
+    border: none;
+    border: 1px solid #1b95ff;
+    color: #fff;
+}
+
+#search-form input[type = 'text']{
+	width: 65%;
+    padding: 0.6em 0.1em;
+    border: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #2196F3;
+    color: #5390de;
+
+}
+#search-form label{
+	display: block;
+}
